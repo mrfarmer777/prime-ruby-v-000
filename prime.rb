@@ -20,3 +20,8 @@ while n<1000
   puts Benchmark.measure{prime?(1087)}
   n+=1
 end
+
+def prime_atkin?(num)
+  res=[2,3,5]
+  sieve=Array.new(num,false)
+end
