@@ -15,4 +15,8 @@ def prime?(num)
   return false
 end
 
-puts Benchmark.measure{prime?(1087)}
+n=500
+while n<1000
+  puts Benchmark.measure{prime?(1087)}
+  n+=1
+end
