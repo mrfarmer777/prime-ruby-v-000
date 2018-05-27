@@ -15,4 +15,4 @@ def prime?(num)
   return false
 end
 
-puts Benchmark.measure{prime?(541)}
+puts Benchmark.measure{prime?(1082)}
